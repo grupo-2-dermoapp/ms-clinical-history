@@ -126,6 +126,3 @@ class ClinicalHistoryByPatientIdView(Resource):
                 "message": "No se puede completar la solicitud",
             }
             return data, 403
-
-
-
