@@ -30,4 +30,3 @@ class ClinicalHistorySchema(SQLAlchemyAutoSchema):
         exclude = ('uuid',)
         load_instance = True
         include_relationships = True
-
